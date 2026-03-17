@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyODEMP2VrFPheQDLhTE1iVa",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/chingsquared/cs1-python-emerald-magadia/blob/main/fa2-%20MAGADIA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 27,
+      "metadata": {
+        "id": "dkeZoc5eM68j",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "7c878bd1-ec0b-4c02-e144-0d7c84cf1fbf"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number: 12\n",
+            "Enter second number: 12\n",
+            "Enter third number: 2\n",
+            "The largest number is 12\n"
+          ]
+        }
+      ],
+      "source": [
+        "num1 = int(input(\"Enter first number: \"))\n",
+        "num2 = int(input(\"Enter second number: \"))\n",
+        "num3 = int(input(\"Enter third number: \"))\n",
+        "\n",
+        "if num1 >= num2 and num1 >= num3:\n",
+        "    print(\"The largest number is\", num1)\n",
+        "\n",
+        "elif num2 <= num3 and num2 >= num1:\n",
+        "        print(\"The largest number is\", num2)\n",
+        "\n",
+        "else:\n",
+        "    print(\"The1 largest number is\", num3)\n",
+        "\n",
+        ""
+      ]
+    }
+  ]
+}
